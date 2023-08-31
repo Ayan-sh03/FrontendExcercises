@@ -171,3 +171,15 @@ body {
 
   background-color: #cfccee;
 }
+
+@media (max-width: 600px) {
+  .parent {
+    flex-direction: column;
+  }
+  .result {
+    z-index: 90;
+  }
+  .summary {
+    margin-top: -4px;
+  }
+}
