@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  min-height: 100vh;
+  background: url("/rm222batch5-mind-03.jpg") no-repeat;
+  background-size: cover;
+  //   background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  background-color: #0d1a2d;
+  border: 1px solid #ccc;
+  height: 30rem;
+  width: 16.5rem;
+  border-radius: 1rem;
+  padding: 0.69rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.img-container {
+  flex: 2.5; /* Takes half of the available space */
+  background-image: url("/image-equilibrium.jpg");
+  background-size: cover; /* Resize and crop the background image to cover the container */
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the background image */
+  border-radius: 5px;
+}
+
+.text {
+  color: white;
+  //   background-color: lightcoral; /* Optional background color for illustration */
+  flex: 1.5;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.price span:first-child {
+  color: #30e7ec;
+}
+
+.author {
+  color: white;
+  flex: 0.5;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  img {
+    width: 35px;
+  }
+  span {
+    color: rgb(92, 88, 88);
+  }
+}
